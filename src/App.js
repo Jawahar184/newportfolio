@@ -365,9 +365,9 @@ const HomeView = () => {
             </div>
 
             <div className="flex items-center gap-3 pt-2">
-                <SocialPill icon={<Twitter size={14} />} text="Twitter DM" href="https://x.com/Phnxio" />
+                <SocialPill icon={<Twitter size={14} />} text="Twitter DM" href="https://x.com/codevsdev" />
                 <span className="text-xs text-[var(--text-muted)] font-mono">OR</span>
-                <SocialPill icon={<Mail size={14} />} text="Email Me" href="mailto:Postboxno184@gmail.com" />
+                <SocialPill icon={<Mail size={14} />} text="Email Me" href="mailto:postboxno184@gmail.com" />
                 <SocialPill icon={<Briefcase size={14} />} text="Resume" onClick={handleResumeDownload} />
             </div>
 
